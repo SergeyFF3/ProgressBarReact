@@ -16,7 +16,6 @@ function App() {
             setProgress(0);
             setLoading(false);
         }
-
     }, [loading, progress]);
 
     const handleButtonClick = () => {
@@ -29,6 +28,10 @@ function App() {
             <div className="progress-container">
                 <div className="progress-bar" style={{width: `${progress}%`}}/>
             </div>
+            <div className="percent-container">
+                <p>0%</p>
+                <p>100%</p>
+            </div>
             <div className="button-container">
                 <button
                     className="btn"
@@ -39,6 +42,6 @@ function App() {
             </div>
         </div>
     );
-};
+}
 
 export default App;
