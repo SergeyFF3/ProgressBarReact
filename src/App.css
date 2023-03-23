@@ -1,0 +1,49 @@
+.content {
+    font-family: "Arial", Serif;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.progress-container {
+    position: relative;
+    height: 30px;
+    width: 100%;
+    border: 1px solid #4CAF50;
+    border-radius: 8px;
+    background-color: #ddd;
+}
+
+.progress-bar {
+    position: absolute;
+    height: 32px;
+    top: -1px;
+    left: -1px;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    transition: width .1s linear;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+    background: #ddd;
+    transition: .2s;
+}
+
+.btn:hover {
+    background: #4CAF50;
+    color: white;
+}
